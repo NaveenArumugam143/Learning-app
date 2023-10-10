@@ -1,0 +1,50 @@
+.navBar{
+    height: 5rem;
+    width: 100vw;
+    max-width: 95vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem auto;
+    position: sticky;
+}
+.menuItemList{
+    margin: 1rem;
+    cursor: pointer;
+}
+.menuItem{
+    padding: 3rem;
+}
+
+.menuItem:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+
+}
+
+
+.logo{
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+}
+
+.btncontact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: black;
+    border: none;
+    padding: 5px;
+    border-radius: 1rem;
+}
+
+.contactLogo{
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+    border-radius: 1rem;
+}
